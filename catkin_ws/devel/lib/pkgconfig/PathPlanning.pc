@@ -1,0 +1,8 @@
+prefix=/usr/home/students/stud16/cse63260/catkin_ws/devel
+
+Name: PathPlanning
+Description: Description of PathPlanning
+Version: 0.0.0
+Cflags: -I/usr/home/students/stud16/cse63260/catkin_ws/src/PathPlanning/include
+Libs: -L${prefix}/lib -lPathPlanning
+Requires: roscpp rospy std_msgs message_runtime
