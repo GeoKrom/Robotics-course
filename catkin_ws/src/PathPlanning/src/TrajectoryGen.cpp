@@ -15,7 +15,7 @@ int main(int argc, char **argv){
 	ros::Publisher pub = node.advertise<geometry_msgs::Twist>("pioneer/cmd_vel", 10);
 
 	double t;
-    double rad_deg = M_PI/180;
+    	double rad_deg = M_PI/180;
 	ros::Rate rate(10);
     
 	while(ros::ok()){
